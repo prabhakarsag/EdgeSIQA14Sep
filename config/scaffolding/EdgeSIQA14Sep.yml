@@ -1,0 +1,10 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgeSIQA14Sep
+  gitServerName: SIQAPsurGit
+  gitUrl: https://github.com/prabhakarsag/EdgeSIQA14Sep
+  gitUsername: prabhakarsag
+  gitToken: edge.scaffolding.EdgeSIQA14Sep.SIQAPsurGit.gitToken
+  gitBranch: main
