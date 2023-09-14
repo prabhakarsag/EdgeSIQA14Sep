@@ -14,6 +14,14 @@ services:
   packages:
   - name: EdgeSIQA14Sep
     version: "1.0"
+- serviceName: edge.siqa14sep.integrations:DataBase
+  packages:
+  - name: EdgeSIQA14Sep
+    version: "1.0"
+- serviceName: edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:Insert
+  packages:
+  - name: EdgeSIQA14Sep
+    version: "1.0"
 configurationVariables:
   ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.datasourceClass
   : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource

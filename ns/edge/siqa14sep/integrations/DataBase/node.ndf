@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">siqaadmin</value>
-    <value name="createdDate">1694668500524</value>
-    <value name="lastModifiedDate">1694668500524</value>
+    <value name="lastModifiedBy">siqaadmin</value>
+    <value name="lastModifiedDate">1694668544342</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">ffbf8822c50e4484b29bfed893ea5cd0</value>
       <null name="group"/>
@@ -100,12 +99,14 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1">
         </array>
-        <array name="mapSet" type="object" depth="1">
-        </array>
+        <null name="mapSet"/>
         <array name="inputMap" type="object" depth="1">
         </array>
         <array name="outputMap" type="object" depth="1">
         </array>
+        <number name="ui_step_index" type="Long">1</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <null name="outputMapSet"/>
       </record>
     </record>
   </record>
