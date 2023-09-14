@@ -22,6 +22,14 @@ services:
   packages:
   - name: EdgeSIQA14Sep
     version: "1.0"
+- serviceName: edge.siqa14sep.integrations:test
+  packages:
+  - name: EdgeSIQA14Sep
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.533
 configurationVariables:
   ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.datasourceClass
   : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
@@ -33,10 +41,10 @@ configurationVariables:
   : "1000"
   ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.expireTimeout
   : "1000"
-  ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_14Sep.connectionManagerSettings.poolable
-  : "false"
   ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.minimumPoolSize
   : "0"
+  ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_14Sep.connectionManagerSettings.poolable
+  : "false"
   ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_14Sep2.connectionSettings.driverType
   : Progress® DataDirect®
   ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_14Sep.connectionSettings.datasourceClass
@@ -95,10 +103,10 @@ configurationVariables:
   : loginTimeout=60;driverType=thin;
   ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_14Sep.connectionSettings.driverType
   : Progress® DataDirect®
-  ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_14Sep.connectionManagerSettings.startupRetryCount
-  : "0"
   ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_14Sep2.connectionSettings.user
   : sa
+  ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_14Sep.connectionManagerSettings.startupRetryCount
+  : "0"
   ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.poolIncrementSize
   : "1"
   ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_14Sep2.connectionSettings.trustStore
@@ -143,10 +151,10 @@ configurationVariables:
   : "10"
   ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_14Sep.connectionSettings.networkProtocol
   : tcp
-  ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_14Sep.connectionSettings.user
-  : sa
   ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.blockingTimeout
   : "1000"
+  ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_14Sep.connectionSettings.user
+  : sa
   ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.password
   : "{AES}B2Xqma4Ost5nVUiXctJydQ=="
   ? artConnection.EdgeSIQA14Sep.edge.siqa14sep.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_14Sep2.connectionSettings.otherProperties
